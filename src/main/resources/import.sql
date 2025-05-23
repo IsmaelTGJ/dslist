@@ -1,3 +1,10 @@
+INSERT INTO tb_game_list (name) VALUES ('Aventura e RPG');
+
+INSERT INTO tb_game_list (name) VALUES ('Jogos de plataforma');
+
+
+
+
 INSERT INTO tb_game (game_year, score, genre, img_url, long_description, platforms, short_description, title) VALUES (2012, 4.8, 'Role-playing (RPG), Shooter', 'https://raw.githubusercontent.com/devsuperior/java-spring-dslist/main/resources/1.png', 'Mass Effect Trilogy is a science fiction RPG shooter that puts players in the role of Commander Shepard. Explore the galaxy, make difficult decisions, and unite alien species to save the universe.', 'XBox, Playstation, PC', 'Trilogy of Mass Effect games with rich storytelling and RPG elements.', 'Mass Effect Trilogy');
 
 INSERT INTO tb_game (game_year, score, genre, img_url, long_description, platforms, short_description, title) VALUES (2015, 4.7, 'Action, Adventure', 'https://raw.githubusercontent.com/devsuperior/java-spring-dslist/main/resources/2.png', 'The Witcher 3: Wild Hunt is a story-driven open world RPG set in a visually stunning fantasy universe full of meaningful choices and impactful consequences.', 'Playstation, Xbox, PC', 'Fantasy RPG with deep story and monster hunting.', 'The Witcher 3: Wild Hunt');
@@ -17,3 +24,16 @@ INSERT INTO tb_game (game_year, score, genre, img_url, long_description, platfor
 INSERT INTO tb_game (game_year, score, genre, img_url, long_description, platforms, short_description, title) VALUES (2022, 4.9, 'Action RPG', 'https://raw.githubusercontent.com/devsuperior/java-spring-dslist/main/resources/9.png', 'Elden Ring is an expansive fantasy action RPG created by FromSoftware with open world exploration and challenging combat.', 'Playstation, Xbox, PC', 'Dark fantasy open world action with deep lore.', 'Elden Ring');
 
 INSERT INTO tb_game (game_year, score, genre, img_url, long_description, platforms, short_description, title) VALUES (2019, 4.7, 'Shooter, Battle Royale', 'https://raw.githubusercontent.com/devsuperior/java-spring-dslist/main/resources/10.png', 'Apex Legends is a free-to-play battle royale where legendary competitors battle for glory and fortune on the fringes of the Frontier.', 'Playstation, Xbox, PC', 'Fast-paced battle royale with unique characters.', 'Apex Legends');
+	
+	
+INSERT INTO tb_belonging (position, game_id, list_id) VALUES (0, 1, 1);
+INSERT INTO tb_belonging (position, game_id, list_id) VALUES (1, 2, 1);
+INSERT INTO tb_belonging (position, game_id, list_id) VALUES (2, 3, 1);
+INSERT INTO tb_belonging (position, game_id, list_id) VALUES (3, 4, 1);
+INSERT INTO tb_belonging (position, game_id, list_id) VALUES (4, 5, 1);
+
+INSERT INTO tb_belonging (position, game_id, list_id) VALUES (0, 6, 2);
+INSERT INTO tb_belonging (position, game_id, list_id) VALUES (1, 7, 2);
+INSERT INTO tb_belonging (position, game_id, list_id) VALUES (2, 8, 2);
+INSERT INTO tb_belonging (position, game_id, list_id) VALUES (3, 9, 2);
+INSERT INTO tb_belonging (position, game_id, list_id) VALUES (4, 10, 2);
